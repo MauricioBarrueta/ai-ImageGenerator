@@ -20,7 +20,7 @@ body .container, body .generated-images-list {
 }
 body .container {
   min-width: 100%;
-  padding: 1em;
+  padding: 1em 1em 0 1em !important;
 }
 body .container span, body .container p, body .container small {
   width: 100%;
@@ -30,7 +30,7 @@ body .container span, body .container p, body .container small {
           user-select: none;
   text-align: center;
 }
-body .container span {
+body .container .title {
   font-size: 28px;
   letter-spacing: 1px;
   padding-bottom: 0.5rem;
@@ -45,6 +45,7 @@ body .container p small {
   color: #B18FCF;
 }
 body .container .input-group {
+  width: 85%;
   border-radius: 5px;
   border: none !important;
 }
@@ -53,15 +54,18 @@ body .container .input-group input, body .container .input-group button {
 }
 body .container .input-group input {
   font-size: 16px;
+  text-transform: capitalize;
 }
 body .container .input-group input:disabled {
   opacity: 0.75;
 }
 body .container .input-group input::-moz-placeholder {
-  font-size: 14px;
+  font-size: 13px;
+  text-transform: none;
 }
 body .container .input-group input::placeholder {
-  font-size: 14px;
+  font-size: 13px;
+  text-transform: none;
 }
 body .container .input-group button {
   background-color: #B18FCF;
@@ -71,12 +75,20 @@ body .container .input-group button:hover {
   background-color: #978897;
   color: whitesmoke;
 }
+body .container .alert {
+  font-size: 11px;
+  letter-spacing: 1px;
+  color: #D8D8F6;
+  padding: 0;
+}
 body .container .generated-images-list {
   gap: 10px;
 }
 body .container .generated-images-list span {
   font-size: 14px;
+  font-weight: bold;
   border-bottom: 0;
+  margin-top: 5px;
 }
 body .container .generated-images-list .images-list-container {
   position: relative;

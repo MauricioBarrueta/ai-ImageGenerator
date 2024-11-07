@@ -12,18 +12,19 @@
 </head>
 <body>
     <div class="container">
-        <span>&#xf1c5; | Genera imágenes utilizando la IA | &#xf1c5;</span>
+        <span class="title">&#xf1c5;&nbsp; | Genera imágenes utilizando la IA | &nbsp;&#xf1c5;</span>
         <p>Describe la imagen que deseas generar usando el poder de la inteligencia artificial. Por ejemplo, si lo que buscas son imágenes 
             en alta definición ingresa algo así: "High Resolution, Best Quality, 4K, Ultra High Resolution", etc. Lo mismo si buscas algo más 
-            específico, por ejemplo: "Sunset on the beach with pelicans flying overhead and a whale in the background, exteremly detailed", etc.
-            <small>&#xf05a; Recuerda que si no estás conforme con los resultados puedes volver a generar nuevas imágenes con la misma descripción &#xf05a;</small>
+            específico, por ejemplo: "Sunset, Beach, Pelicans Flying, Tourists, Exteremly Detailed", etc.
+            <small>&#xf05a;&nbsp; Recuerda que si no estás conforme con los resultados puedes volver a generar nuevas imágenes con la misma descripción &nbsp;&#xf05a;</small>
         </p>
 
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="desc" placeholder="Ingresa la descripción de la imagen que buscas, de preferencia en inglés para que funcione correctamente la IA:" aria-describedby="generate-btn">
+            <input type="text" class="form-control" id="desc" placeholder="Ingresa la descripción de preferencia en inglés para que la IA funcione correctamente:" aria-describedby="generate-btn">
             <button class="btn btn-dark" type="button" id="generate-btn">Generar imágenes</button>
         </div>
-        
+
+        <span class="alert"></span>
         <div class="generated-images-list"></div>
     </div>
     
