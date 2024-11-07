@@ -5,4 +5,4 @@
 🔗 https://mauriciobarrueta.github.io/ai-ImageGenerator/
 
 
-![aiImageGenerator](https://github.com/MauricioBarrueta/ai-ImageGenerator/assets/60496232/f3b83f2f-b430-4530-8e6a-5ed259dfe23e)
+![aiImageGenerator](https://github.com/user-attachments/assets/03987dc2-594c-49c4-9f80-006b04d35637)
