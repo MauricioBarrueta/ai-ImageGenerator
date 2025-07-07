@@ -1,8 +1,7 @@
-🇲🇽 Este sitio web permite generar hasta 3 imágenes utilizando la inteligencia artificial (IA), se ingresa la descripción detallada de lo que se busca obtener y se da clic para empezar a generar los resultados, pudiendo repetir esta acción un número ilimitado de veces.
+🇲🇽 Sitio web desarrollado con JavaScript, SCSS y Bootstrap, publicado mediante GitHub Pages, conectado a una API disponible en el sitio Hugging Face (huggingface.co).
 
-🇺🇸 This website allows you to generate up to 3 images using artificial intelligence (AI), enter the detailed description of what you want to obtain and click to start generating the results, and you can repeat this action an unlimited number of times.
+🇺🇸 Website developed with JavaScript, SCSS and Bootstrap, published via GitHub Pages, connected to an API available on the Hugging Face site (huggingface.co).
 
 🔗 https://mauriciobarrueta.github.io/ai-ImageGenerator/
 
-
-![aiImageGenerator](https://github.com/user-attachments/assets/03987dc2-594c-49c4-9f80-006b04d35637)
+![img-generator](https://github.com/user-attachments/assets/354bfe74-78a3-4eae-bc54-a456abf621a4)
