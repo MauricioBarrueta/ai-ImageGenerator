@@ -4,23 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />    
     <link rel="stylesheet" href="src/scss/styles.css">
     <title>AI Image Generator</title>
     <link rel="icon" type="image/x-icon" href="src/img/favicon.ico">
 </head>
 <body>
     <div class="container">
-        <span class="title">&#xf1c5;&nbsp; | Genera imágenes utilizando la IA | &nbsp;&#xf1c5;</span>
-        <p>Describe la imagen que deseas generar usando el poder de la inteligencia artificial. Por ejemplo, si lo que buscas son imágenes 
-            en alta definición ingresa algo así: "High Resolution, Best Quality, 4K, Ultra High Resolution", etc. Lo mismo si buscas algo más 
-            específico, por ejemplo: "Sunset, Beach, Pelicans Flying, Tourists, Exteremly Detailed", etc.
-            <small>&#xf05a;&nbsp; Recuerda que si no estás conforme con los resultados puedes volver a generar nuevas imágenes con la misma descripción &nbsp;&#xf05a;</small>
+        <span class="title">&#xf1c5;&nbsp; | Generador de imágenes con IA | &nbsp;&#xf1c5;</span>
+        <p>Describe la imagen que quieres crear y deja que la IA haga el resto. Por ejemplo, si buscas una imagen en alta calidad, puedes escribir algo como: "High resolution, best quality, 4K", o también en español: "Ultra alta resolución". Si deseas algo más específico, 
+            simplemente describe lo que imaginas: "Atardecer en la playa, pelícanos en el fondo, bien detallado", o también en inglés: "Black hole of the Milky Way, realistic, best quality".
+            <small>&#xf05a;&nbsp; Recuerda que, si no estás conforme con los resultados, puedes generar nuevas imágenes usando la misma descripción &nbsp;&#xf05a;</small>
         </p>
 
         <div class="input-group mb-3">
-            <input type="text" class="form-control" id="desc" placeholder="Ingresa la descripción de preferencia en inglés para que la IA funcione correctamente:" aria-describedby="generate-btn">
+            <input type="text" class="form-control" id="desc" placeholder="Describe la imagen que quieres crear:" aria-describedby="generate-btn">
             <button class="btn btn-dark" type="button" id="generate-btn">Generar imágenes</button>
         </div>
 
@@ -28,7 +27,7 @@
         <div class="generated-images-list"></div>
     </div>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>    
     <script src="src/js/main.js"></script>
 </body>
 </html>

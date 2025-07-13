@@ -39,6 +39,7 @@ body .container .title {
 body .container p {
   font-size: 16px;
   padding-top: 0.5rem;
+  line-height: 1.85;
 }
 body .container p small {
   font-size: 12px;
@@ -54,18 +55,15 @@ body .container .input-group input, body .container .input-group button {
 }
 body .container .input-group input {
   font-size: 16px;
-  text-transform: capitalize;
 }
 body .container .input-group input:disabled {
   opacity: 0.75;
 }
 body .container .input-group input::-moz-placeholder {
-  font-size: 13px;
-  text-transform: none;
+  font-size: 14px;
 }
 body .container .input-group input::placeholder {
-  font-size: 13px;
-  text-transform: none;
+  font-size: 14px;
 }
 body .container .input-group button {
   background-color: #B18FCF;
