@@ -1,4 +1,6 @@
-const apiKey = import.meta.env.VITE_HUGGINGFACE_KEY, apiUrl = 'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0', modelInfoUrl = 'https://huggingface.co/api/models/stabilityai/stable-diffusion-xl-base-1.0'
+//! Token público con permisos de solo lectura. Su uso está restringido y limitado exclusivamente a este proyecto.
+const key = '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', 
+    apiUrl = 'https://api-inference.huggingface.co/models/stabilityai/stable-diffusion-xl-base-1.0', modelInfoUrl = 'https://huggingface.co/api/models/stabilityai/stable-diffusion-xl-base-1.0'
 const generateBtn = document.getElementById('generate-btn'), imgList = document.querySelector('.generated-images-list'), desc = document.getElementById('desc'), limit = 3, imgUrlList = [], alertText = document.querySelector('.alert')
 let selectedImgNumber = null
 
@@ -59,7 +61,7 @@ async function generateImages(text) {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": `Bearer ${apiKey}`,
+                    "Authorization": `Bearer ${key}`,
                 },
                 body: JSON.stringify({ inputs: description }),
             });
